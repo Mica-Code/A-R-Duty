@@ -1,0 +1,40 @@
+RewriteEngine On
+
+# Set the base directory (adjust if your site is in a subdirectory)
+RewriteBase /A&RDuties
+
+# Remove .php extension from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.+)$ $1.php [L]
+
+# Route /ai-chat to /dashboard/ai-chat.php
+RewriteRule ^ai-chat$ dashboard/ai-chat.php [L]
+RewriteRule ^rollout-plan$ dashboard/rollout-plan.php [L]
+RewriteRule ^pr$ dashboard/pr.php [L]
+RewriteRule ^marketing-campaign$ dashboard/marketing-campaign.php [L]
+RewriteRule ^legal-services$ dashboard/legal-services.php [L]
+RewriteRule ^dashboard-overview$ dashboard/dashboard-overview.php [L]
+
+
+# Route /signin to /auth/signin.php
+RewriteRule ^signin$ auth/signin.php [L]
+RewriteRule ^signup$ auth/signup.php [L]
+RewriteRule ^verify$ auth/verify.php [L]
+RewriteRule ^signout$ auth/signout.php [L]
+
+
+# Route auth URLs
+# RewriteRule ^(signup|signin|verify|logout)$ auth/$1.php [L]
+
+
+
+
+
+# Handle 404 errors
+ErrorDocument 404 /A&RDuties/404.php
+
+# Ensure custom error documents are served with the proper content type
+<IfModule mod_mime.c>
+    AddType text/html .php
+</IfModule>
