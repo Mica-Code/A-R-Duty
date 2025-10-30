@@ -1,0 +1,2 @@
+# Ignore config.php inside the includes folder
+/includes/config.php
