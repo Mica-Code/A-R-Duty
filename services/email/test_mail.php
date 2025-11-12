@@ -104,12 +104,12 @@ function sendEmail($to, $toName, $subject, $htmlBody, $altBody = '') {
             <p>Your OTP code is:</p>
             <div class="otp-box">' . htmlspecialchars($otp_code) . '</div>
             <p>Or click below to verify:</p>
-            <a href="http://localhost/A&RDuties/verify.php?email=' . urlencode($email) . '&token=' . urlencode($token) . '">Verify Now</a>
+            <a href="http://localhost/A-R-Duty/verify.php?email=' . urlencode($email) . '&token=' . urlencode($token) . '">Verify Now</a>
         </body>
         </html>
     ';
 
-    $altBody = "Your OTP is $otp_code. Visit: http://localhost/A&RDuties/verify.php?email=$email&token=$token";
+    $altBody = "Your OTP is $otp_code. Visit: http://localhost/A-R-Duty/verify.php?email=$email&token=$token";
 
 sendEmail($email, $name, $subject, $htmlBody, $altBody);
 

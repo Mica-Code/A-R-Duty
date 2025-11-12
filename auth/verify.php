@@ -134,7 +134,7 @@ include '../includes/header.php';
         const email = document.querySelector('input[name="email"]').value;
         showLoader(); // optional loader
 
-        fetch('/A&RDuties/auth/resend-otp.php', {
+        fetch('/A-R-Duty/auth/resend-otp.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: `email=${encodeURIComponent(email)}`
@@ -179,7 +179,7 @@ include '../includes/header.php';
     formData.append('email', email);
     formData.append('otp', otp);
 
-    fetch('/A&RDuties/auth/verify-process.php', {
+    fetch('/A-R-Duty/auth/verify-process.php', {
         method: 'POST',
         body: formData
     })
@@ -189,7 +189,7 @@ include '../includes/header.php';
         if (data.status === 'success') {
         document.getElementById('message').innerHTML = `<p class="text-green-500">${data.message}</p>`;
         setTimeout(() => {
-            window.location.href = '/A&RDuties/auth/signin'; // change to your redirect target
+            window.location.href = '/A-R-Duty/auth/signin'; // change to your redirect target
         }, 2000);
         } else {
         document.getElementById('message').innerHTML = `<p class="text-red-500">${data.message}</p>`;

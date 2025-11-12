@@ -72,7 +72,7 @@
                     <span class="text-xl font-bold gradient-text">A&R DUTY</span>
                 </a>
                 <div class="flex-1 flex justify-end">
-                    <a href="/A&RDuties" class="px-4 py-2 rounded-lg bg-orange-600 hover:bg-orange-700 text-white transition-colors duration-200">
+                    <a href="/A-R-Duty" class="px-4 py-2 rounded-lg bg-orange-600 hover:bg-orange-700 text-white transition-colors duration-200">
                         Back to Home
                     </a>
                 </div>
@@ -90,7 +90,7 @@
                     Oops! The page you're looking for doesn't exist or has been moved.
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-                    <a href="/A&RDuties" class="px-6 py-3 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-medium rounded-lg transition-all duration-200 transform hover:scale-105 flex items-center justify-center space-x-2">
+                    <a href="/A-R-Duty" class="px-6 py-3 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-medium rounded-lg transition-all duration-200 transform hover:scale-105 flex items-center justify-center space-x-2">
                         <span>Go to Homepage</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
                             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>

@@ -1,5 +1,5 @@
 <?php
 // Redirect to AI chat page
-header("Location: /A&RDuties/dashboard/ai-chat");
+header("Location: /A-R-Duty/dashboard/ai-chat");
 exit();
 ?>

@@ -257,7 +257,7 @@
         <p class="text-sm text-gray-300">Your personal A&amp;R co-pilot. Ask me anything about the music industry.</p>
       </div>
 
-      <div id="prompt-suggestions" class="flex flex-col space-y-1.5 p-6 text-center">
+      <div id="prompt-suggestions" class="flex flex-col space-y-1.5 p-6 text-center" style="display: none;">
         <div class="text-center text-gray-400">
             <h3 class="text-lg font-semibold text-white mb-4">Prompt Suggestions</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -496,13 +496,11 @@
     if (!message) return;
     renderMessage('user', message);
     input.value = '';
-    button.disabled = true;
-
-    console.log(message);
+    // button.disabled = true;
 
     showChatLoading();
 
-    const res = await fetch('/A&RDuties/dashboard/chat.php', {
+    const res = await fetch('/A-R-Duty/dashboard/chat.php', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message })
@@ -522,8 +520,6 @@
   //Calls for functions
   window.addEventListener('load', async () => {
     await loadHistory(false, true); // load first batch and scroll to bottom
-    console.log(chatCount);
-
     if (chatCount === 0) {
       // Show prompt suggestions if no chats exist
       document.getElementById('prompt-suggestions').style.display = 'flex';

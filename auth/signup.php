@@ -93,7 +93,7 @@ include '../includes/header.php';
             const formData = new FormData(form);
 
             showLoader();
-            fetch('/A&RDuties/auth/process_signup.php', {
+            fetch('/A-R-Duty/auth/process_signup.php', {
                 method: 'POST',
                 body: formData
             })
@@ -114,7 +114,7 @@ include '../includes/header.php';
                 if (data.status === "success") {
                     form.reset();
                     setTimeout(() => {
-                        window.location.href = `/A&RDuties/auth/verify.php?email=${formData.get('email')}`;
+                        window.location.href = `/A-R-Duty/auth/verify.php?email=${formData.get('email')}`;
                     }, 1500);
                 }
             })

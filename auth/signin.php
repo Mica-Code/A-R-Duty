@@ -68,7 +68,7 @@ include '../includes/header.php';
         formData.append('email', email);
         formData.append('password', password);
 
-        const response = await fetch('/A&RDuties/auth/signin-process.php', {
+        const response = await fetch('/A-R-Duty/auth/signin-process.php', {
             method: 'POST',
             body: formData
         })
@@ -85,7 +85,7 @@ include '../includes/header.php';
                     backgroundColor: "#22c55e",
                 }).showToast();
             setTimeout(() => {
-                window.location.href = '/A&RDuties/dashboard/index.php';
+                window.location.href = '/A-R-Duty/dashboard/index.php';
             }, 2000);
             } 
             else if (data.status === 'verify') {

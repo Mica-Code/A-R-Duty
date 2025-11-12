@@ -28,7 +28,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="/A&RDuties/images/favicon.png">
+    <link rel="icon" type="image/png" href="/A-R-Duty/images/favicon.png">
     <title> <?= $title ?> - A&R DUTY | AI-Powered Music Industry Platform</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -300,7 +300,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center h-16">
                 <!-- Logo -->
-                <a href="/A&RDuties" class="flex-shrink-0 flex items-center space-x-2">
+                <a href="/A-R-Duty" class="flex-shrink-0 flex items-center space-x-2">
                     <div
                         class="w-8 h-8 bg-gradient-to-r from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -319,7 +319,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                 <!-- Navigation -->
                 <div class="hidden md:flex flex-1 justify-center px-4">
                     <nav class="flex items-center space-x-1">
-                        <a href="/A&RDuties"
+                        <a href="/A-R-Duty"
                             class="inline-flex items-center px-3 py-2 rounded-lg <?= getActiveClass($title, 'Home') ?> text-sm font-medium space-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -329,7 +329,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                             </svg>
                             <span>Home</span>
                         </a>
-                        <a href="/A&RDuties/talent-discovery"
+                        <a href="/A-R-Duty/talent-discovery"
                             class="inline-flex items-center px-3 py-2 rounded-lg <?= getActiveClass($title, 'Talent Discovery') ?> text-sm font-medium space-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -341,7 +341,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                             </svg>
                             <span>Talent Discovery</span>
                         </a>
-                        <a href="/A&RDuties/artist-development"
+                        <a href="/A-R-Duty/artist-development"
                             class="inline-flex items-center px-3 py-2 rounded-lg <?= getActiveClass($title, 'Artist Development') ?> text-sm font-medium space-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -352,7 +352,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                             </svg>
                             <span>Artist Development</span>
                         </a>
-                        <a href="/A&RDuties/ar-marketplace"
+                        <a href="/A-R-Duty/ar-marketplace"
                             class="inline-flex items-center px-3 py-2 rounded-lg <?= getActiveClass($title, 'A&R Market Place') ?> text-sm font-medium space-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -362,7 +362,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                             </svg>
                             <span>A&R Marketplace</span>
                         </a>
-                        <a href="/A&RDuties/pricing"
+                        <a href="/A-R-Duty/pricing"
                             class="inline-flex items-center px-3 py-2 rounded-lg <?= getActiveClass($title, 'Pricing') ?> text-sm font-medium space-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -397,7 +397,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                             <div
                                 class="absolute left-0 mt-2 w-56 rounded-lg shadow-lg glass-effect opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out z-50 glass-effect">
                                 <div class="py-1">
-                                    <a href="/A&RDuties/ai-chat"
+                                    <a href="/A-R-Duty/ai-chat"
                                         class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-white/10 hover:text-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -406,7 +406,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                                         </svg>
                                         <span>AI Chat</span>
                                     </a>
-                                    <a href="/A&RDuties/rollout-plan"
+                                    <a href="/A-R-Duty/rollout-plan"
                                         class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-white/10 hover:text-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -417,7 +417,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                                         </svg>
                                         <span>Rollout Plan</span>
                                     </a>
-                                    <a href="/A&RDuties/marketing-campaign"
+                                    <a href="/A-R-Duty/marketing-campaign"
                                         class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-white/10 hover:text-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -427,7 +427,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                                         </svg>
                                         <span>Marketing Campaign</span>
                                     </a>
-                                    <a href="/A&RDuties/pr"
+                                    <a href="/A-R-Duty/pr"
                                         class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-white/10 hover:text-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -437,7 +437,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                                         </svg>
                                         <span>PR</span>
                                     </a>
-                                    <a href="/A&RDuties/legal-services"
+                                    <a href="/A-R-Duty/legal-services"
                                         class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-white/10 hover:text-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -460,7 +460,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                 <?php if (isset($_SESSION['user_id'])): ?>
                 <!-- Dashboard + Sign Out -->
                 <div class="hidden md:flex items-center space-x-2">
-                    <a class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-10 px-4 py-2 hover:bg-white/10" href="/A&RDuties/dashboard-overview">
+                    <a class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-10 px-4 py-2 hover:bg-white/10" href="/A-R-Duty/dashboard-overview">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2">
                         <rect width="7" height="9" x="3" y="3" rx="1"></rect>
                         <rect width="7" height="5" x="14" y="3" rx="1"></rect>
@@ -469,7 +469,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                     </svg>
                     Dashboard
                     </a>
-                    <a href="/A&RDuties/signout" class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border bg-background hover:text-accent-foreground h-10 px-4 py-2 border-white/20 hover:bg-white/10">
+                    <a href="/A-R-Duty/signout" class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border bg-background hover:text-accent-foreground h-10 px-4 py-2 border-white/20 hover:bg-white/10">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2">
                         <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
                         <polyline points="16 17 21 12 16 7"></polyline>
@@ -481,8 +481,8 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                 <?php else: ?>
                 <!-- Sign In + Sign Up -->
                 <div class="hidden md:flex items-center space-x-2 ml-auto">
-                    <a href="/A&RDuties/signin" class="px-4 py-2 border border-white/20 rounded-md text-sm text-white hover:bg-white/10">Sign In</a>
-                    <a href="/A&RDuties/signup" class="px-4 py-2 bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 rounded-md text-sm text-white flex items-center">
+                    <a href="/A-R-Duty/signin" class="px-4 py-2 border border-white/20 rounded-md text-sm text-white hover:bg-white/10">Sign In</a>
+                    <a href="/A-R-Duty/signup" class="px-4 py-2 bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 rounded-md text-sm text-white flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
                         <circle cx="9" cy="7" r="4"></circle>
@@ -513,7 +513,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
             <div id="mobile-menu" class="md:hidden hidden">
                 <div class="pt-2 pb-3 space-y-1">
                     <a class="flex items-center space-x-3 px-4 py-3 rounded-lg transition-all duration-200 <?= getActiveClass($title, 'Home') ?>"
-                        href="/A&RDuties"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        href="/A-R-Duty"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="w-5 h-5">
                             <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
@@ -521,7 +521,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                         </svg><span class="font-medium">Home</span>
                     </a>
                     <a class="flex items-center space-x-3 px-4 py-3 rounded-lg transition-all duration-200 <?= getActiveClass($title, 'Talent Discovery') ?>"
-                        href="/A&RDuties/talent-discovery"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        href="/A-R-Duty/talent-discovery"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
                             <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
@@ -531,7 +531,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                         </svg><span class="font-medium">Talent Discovery</span>
                     </a>
                     <a class="flex items-center space-x-3 px-4 py-3 rounded-lg transition-all duration-200 <?= getActiveClass($title, 'Artist Development') ?>"
-                        href="/A&RDuties/artist-development"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        href="/A-R-Duty/artist-development"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
                             <path d="M9 18V5l12-2v13"></path>
@@ -540,7 +540,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                         </svg><span class="font-medium">Artist Development</span>
                     </a>
                     <a class="flex items-center space-x-3 px-4 py-3 rounded-lg transition-all duration-200 <?= getActiveClass($title, 'A&R Market Place') ?>"
-                        href="/A&RDuties/ar-marketplace"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        href="/A-R-Duty/ar-marketplace"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
                             <rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect>
@@ -548,7 +548,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                         </svg><span class="font-medium">A&amp;R Marketplace</span>
                     </a>
                     <a class="flex items-center space-x-3 px-4 py-3 rounded-lg transition-all duration-200 <?= getActiveClass($title, 'Pricing') ?>"
-                        href="/A&RDuties/pricing">
+                        href="/A-R-Duty/pricing">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="w-5 h-5">
@@ -581,7 +581,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                         </button>
                         <div id="mobile-tools-dropdown" class="mt-1 ml-6 space-y-1 hidden">
 
-                            <a href="/A&RDuties/ai-chat"
+                            <a href="/A-R-Duty/ai-chat"
                                 class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-white/10 hover:text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -590,7 +590,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                                 </svg>
                                 <span>AI Chat</span>
                             </a>
-                            <a href="/A&RDuties/rollout-plan"
+                            <a href="/A-R-Duty/rollout-plan"
                                 class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-white/10 hover:text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -601,7 +601,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                                 </svg>
                                 <span>Rollout Plan</span>
                             </a>
-                            <a href="/A&RDuties/marketing-campaign"
+                            <a href="/A-R-Duty/marketing-campaign"
                                 class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-white/10 hover:text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -611,7 +611,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                                 </svg>
                                 <span>Marketing Campaign</span>
                             </a>
-                            <a href="/A&RDuties/pr"
+                            <a href="/A-R-Duty/pr"
                                 class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-white/10 hover:text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -621,7 +621,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                                 </svg>
                                 <span>PR</span>
                             </a>
-                            <a href="/A&RDuties/legal-services"
+                            <a href="/A-R-Duty/legal-services"
                                 class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-white/10 hover:text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -638,7 +638,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                         </div>
                     </div>
                     <a class="flex items-center space-x-3 px-4 py-3 rounded-lg transition-all duration-200 text-gray-300 hover:text-white hover:bg-white/10"
-                        href="/A&RDuties/policy"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        href="/A-R-Duty/policy"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
                             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
@@ -646,7 +646,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                     </a>
 
                     <a class="flex items-center space-x-3 px-4 py-3 rounded-lg transition-all duration-200 text-gray-300 hover:text-white hover:bg-white/10"
-                        href="/A&RDuties/help"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        href="/A-R-Duty/help"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="w-5 h-5">
                             <circle cx="12" cy="12" r="10"></circle>
@@ -661,7 +661,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                     <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Dashboard + Sign Out -->
                         <div class="mt-4 pt-4 border-t border-white/10 flex flex-col gap-2 px-4">
-                            <a class="inline-flex items-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-10 px-4 py-2 hover:bg-white/10 w-full justify-start" href="/A&RDuties/dashboard-overview">
+                            <a class="inline-flex items-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-10 px-4 py-2 hover:bg-white/10 w-full justify-start" href="/A-R-Duty/dashboard-overview">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2">
                                 <rect width="7" height="9" x="3" y="3" rx="1"></rect>
                                 <rect width="7" height="5" x="14" y="3" rx="1"></rect>
@@ -670,7 +670,7 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                             </svg>
                             Dashboard
                             </a>
-                            <a href="/A&RDuties/signout" class="inline-flex items-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border bg-background hover:text-accent-foreground h-10 px-4 py-2 border-white/20 hover:bg-white/10 w-full justify-start text-left">
+                            <a href="/A-R-Duty/signout" class="inline-flex items-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border bg-background hover:text-accent-foreground h-10 px-4 py-2 border-white/20 hover:bg-white/10 w-full justify-start text-left">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2">
                                 <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
                                 <polyline points="16 17 21 12 16 7"></polyline>
@@ -682,10 +682,10 @@ $isPricingActive = $title == "Pricing" ? "bg-orange-600/20 text-orange-400" : "t
                         <?php else: ?>
                         <!-- Sign In + Sign Up -->
                         <div class="pt-4 border-t border-white/10 px-4">
-                            <a href="/A&RDuties/signin" class="block w-full text-center px-4 py-2 border border-white/20 rounded-md text-sm text-white hover:bg-white/10 mb-2">
+                            <a href="/A-R-Duty/signin" class="block w-full text-center px-4 py-2 border border-white/20 rounded-md text-sm text-white hover:bg-white/10 mb-2">
                             Sign In
                             </a>
-                            <a href="/A&RDuties/signup" class="block w-full text-center px-4 py-2 bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 rounded-md text-sm text-white">
+                            <a href="/A-R-Duty/signup" class="block w-full text-center px-4 py-2 bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 rounded-md text-sm text-white">
                             Sign Up
                             </a>
                         </div>

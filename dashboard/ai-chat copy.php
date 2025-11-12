@@ -69,7 +69,7 @@ document.querySelector('form').addEventListener('submit', async (e) => {
 
   // Optional: show user message in chat UI (if you build that later)
 
-  const res = await fetch('/A&RDuties/dashboard/chat.php', {
+  const res = await fetch('/A-R-Duty/dashboard/chat.php', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ message })

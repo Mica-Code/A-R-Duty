@@ -2,7 +2,7 @@
     <footer class="bg-background/80 backdrop-blur-sm border-t border-white/10 mt-auto py-6">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
             <div class="flex justify-center items-center space-x-6 mb-4"><a
-                    class="text-sm hover:text-orange-400 transition-colors" href="/A&RDuties/policy">Policy</a></div>
+                    class="text-sm hover:text-orange-400 transition-colors" href="/A-R-Duty/policy">Policy</a></div>
             <p class="text-sm">© <?= date("Y"); ?> A&amp;R DUTY. All rights reserved.</p>
         </div>
     </footer>

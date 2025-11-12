@@ -1,7 +1,7 @@
 RewriteEngine On
 
 # Set the base directory (adjust if your site is in a subdirectory)
-RewriteBase /A&RDuties
+RewriteBase /A-R-Duty
 
 # Remove .php extension from URLs
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -32,7 +32,7 @@ RewriteRule ^signout$ auth/signout.php [L]
 
 
 # Handle 404 errors
-ErrorDocument 404 /A&RDuties/404.php
+ErrorDocument 404 /A-R-Duty/404.php
 
 # Ensure custom error documents are served with the proper content type
 <IfModule mod_mime.c>

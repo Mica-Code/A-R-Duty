@@ -87,9 +87,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ';
 
         //  <p>Or click below to verify:</p>
-        //         <a href="http://localhost/A&RDuties/verify.php?email=' . urlencode($email) . '&token=' . urlencode($token) . '">Verify Now</a>
+        //         <a href="http://localhost/A-R-Duty/verify.php?email=' . urlencode($email) . '&token=' . urlencode($token) . '">Verify Now</a>
 
-        // $altBody = "Your OTP is $otp_code. Visit: http://localhost/A&RDuties/verify.php?email=$email&token=$token";
+        // $altBody = "Your OTP is $otp_code. Visit: http://localhost/A-R-Duty/verify.php?email=$email&token=$token";
         $altBody = "Your OTP is $otp_code. ";
 
         $emailResult = sendEmail($email, $name, $subject, $htmlBody, $altBody);
